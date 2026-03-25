@@ -1,0 +1,10 @@
+.next
+node_modules
+.env.local
+.env
+.vercel
+dist
+coverage
+*.log
+.DS_Store
+.swift-module-cache
