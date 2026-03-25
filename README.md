@@ -1,6 +1,6 @@
 # Eshaan Sharma 3D Portfolio
 
-Premium interactive portfolio built with Next.js, React Three Fiber, Tailwind CSS, Framer Motion, GSAP, and OpenAI-ready API routes.
+Premium interactive portfolio built with Next.js, React Three Fiber, Tailwind CSS, Framer Motion, GSAP, and Gemini-ready API routes.
 
 ## Highlights
 
@@ -21,8 +21,8 @@ npm install
 2. Add environment variables in `.env.local`:
 
 ```bash
-OPENAI_API_KEY=your_key_here
-OPENAI_MODEL=gpt-4.1-mini
+GEMINI_API_KEY=your_google_ai_key_here
+GEMINI_MODEL=gemini-2.0-flash
 GMAIL_USER=eshaansharma800@gmail.com
 GMAIL_APP_PASSWORD=your_gmail_app_password
 CONTACT_TO_EMAIL=eshaansharma800@gmail.com
@@ -41,6 +41,12 @@ npm run dev
 - The contact form sends recruiter messages through Gmail SMTP using `nodemailer`.
 - Create a Google App Password for the Gmail account you want to send from.
 - Set `GMAIL_USER`, `GMAIL_APP_PASSWORD`, and `CONTACT_TO_EMAIL` locally and in Vercel.
+
+## Gemini setup
+
+- Create an API key in Google AI Studio.
+- Add `GEMINI_API_KEY` in `.env.local` and in Vercel.
+- Optional: set `GEMINI_MODEL`, default is `gemini-2.0-flash`.
 
 ## Deploy on Vercel
 
